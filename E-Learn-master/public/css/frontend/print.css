@@ -1,0 +1,8 @@
+/* print.css */
+
+/* Hide header and footer when printing */
+@media print {
+    header, footer {
+        display: none !important;
+    }
+}
